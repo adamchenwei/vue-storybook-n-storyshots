@@ -6,11 +6,13 @@ import Vue from 'vue';
 // Import your custom components.
 //import Mybutton from '../src/stories/Button.vue';
 import HelloWorld from '../src/components/HelloWorld.vue';
+import Simple from '../src/components/Simple.vue';
 
 // Install Vue plugins.
 //Vue.use(Vuex);
 
 // Register custom components.
+Vue.component('Simple', Simple);
 Vue.component('HelloWorld', HelloWorld);
 
 function loadStories() {

@@ -15,9 +15,14 @@ import Simple from '../src/components/Simple.vue';
 Vue.component('Simple', Simple);
 Vue.component('HelloWorld', HelloWorld);
 
+// function loadStories() {
+//   // You can require as many stories as you need.
+//   require('../src/stories');
+// }
+const req = require.context('../src', true, /.stories.js$/); // <- import all the stories at once
+
 function loadStories() {
-  // You can require as many stories as you need.
-  require('../src/stories');
+  req.keys().forEach(filename => req(filename));
 }
 
 configure(loadStories, module);

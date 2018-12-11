@@ -13,8 +13,8 @@
     "vue": "^2.5.17"
   },
   "devDependencies": {
-    "@storybook/addon-storyshots": "^3.4.11",
-    "@storybook/vue": "^3.4.11",
+    "@storybook/addon-storyshots": "^4.0.12",
+    "@storybook/vue": "^4.0.12",
     "@vue/cli-plugin-babel": "^3.0.5",
     "@vue/cli-plugin-eslint": "^3.0.5",
     "@vue/cli-plugin-unit-jest": "^3.0.5",

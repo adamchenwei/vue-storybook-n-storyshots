@@ -1,5 +1,7 @@
 # vue-storybook-n-storyshots
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/adamchenwei/vue-storybook-n-storyshots.svg)](https://greenkeeper.io/)
+
 ## Project setup
 ```
 yarn install
